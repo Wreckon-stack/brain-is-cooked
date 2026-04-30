@@ -46,9 +46,14 @@ export default function Page() {
         <p>oh yeah</p>
         <p>
           this coin is donating all the creator fees to{" "}
-          <span className="underline decoration-wavy decoration-pink-500">
+          <a
+            href="https://memorycare.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline decoration-wavy decoration-pink-500 hover:text-pink-600 transition-colors"
+          >
             MemoryCare
-          </span>
+          </a>
           , a dementia charity.
         </p>
       </section>
