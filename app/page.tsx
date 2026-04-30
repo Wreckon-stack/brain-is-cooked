@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const CA = "[PASTE CONTRACT ADDRESS HERE]";
+const CA = "3b212NC4h3WXs4WwyjqZEtbuxf9RfmedUraCeGpgpump";
 const X_LINK = "https://x.com/i/communities/2038739179878633926";
 
 export default function Page() {
