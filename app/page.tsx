@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 
 const CA = "3b212NC4h3WXs4WwyjqZEtbuxf9RfmedUraCeGpgpump";
 const X_LINK = "https://x.com/i/communities/2038739179878633926";
@@ -30,12 +29,13 @@ export default function Page() {
       </h1>
 
       <div className="w-[260px] sm:w-[340px] md:w-[420px] mb-8 sm:mb-10">
-        <Image
-          src="/brain.png"
-          alt="brain in a microwave"
-          width={600}
-          height={600}
-          priority
+        <video
+          src="/brain.MP4"
+          poster="/brain.png"
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-auto float-y drop-shadow-[6px_6px_0_rgba(0,0,0,0.15)]"
         />
       </div>
